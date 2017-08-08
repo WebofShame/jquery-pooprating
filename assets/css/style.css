@@ -9,7 +9,7 @@
 
 
 /* clear our poop-container floaters */
-
+ 
 .poop-container:after {
     content: "";
     display: table;
