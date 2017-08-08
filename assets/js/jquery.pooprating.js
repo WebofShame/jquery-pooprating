@@ -25,6 +25,7 @@ $.fn.poopRating = function (totalPoops, poopVal, clickCallback) {
     // check to see whether our container is a ul and if not go ahead and replace the container.  This is just a precaution to keep the poop styles working.
     if (!self.poopContainer.is('ul'))
         self.poopContainer.replaceWith('<ul class="poop-container" />');
+    
 
     // Make sure we have our poop-container class
     if(!self.poopContainer.hasClass('poop-container'))
